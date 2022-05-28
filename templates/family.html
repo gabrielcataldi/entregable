@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {%for f in familiares%}
+    <tr>
+        <td>{{f.nombre}}</td>
+        <td>{{f.edad}}</td>
+        <td>{{f.fecha_nac}}</td>
+    </tr>
+{%endfor%}
+</body>
+</html>

@@ -3,5 +3,5 @@ from django.urls import path
 from Family.views import familya
 
 urlpatterns = [  
-    path('family/', family),
+    path('', familya),
 ]
